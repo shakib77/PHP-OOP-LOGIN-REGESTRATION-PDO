@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/oop-login-registration-pdo.iml" filepath="$PROJECT_DIR$/.idea/oop-login-registration-pdo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/php-mvc-pdo.iml" filepath="$PROJECT_DIR$/.idea/php-mvc-pdo.iml" />
     </modules>
   </component>
 </project>

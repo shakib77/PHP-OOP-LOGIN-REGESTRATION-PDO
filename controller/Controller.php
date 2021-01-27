@@ -1,4 +1,4 @@
 <?php
-    session_start();
-    class Controller { }
+session_start();
+class Controller {  }
 ?>
