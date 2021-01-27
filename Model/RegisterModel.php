@@ -42,11 +42,10 @@
 
       $User = $this->fetch();
       if (!empty($User)) {
-        $Response = array(
+        return array(
           'status' => true,
           'data' => $User
         );
-        return $Response;
       }
       return array(
         'status' => false,

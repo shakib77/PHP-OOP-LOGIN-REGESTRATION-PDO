@@ -1,6 +1,7 @@
 <?php
   require_once(__dir__ . './Controller.php');
   require_once('./Model/RegisterModel.php');
+
   class Register extends Controller {
 
     public $active = 'Register'; //for highlighting the active link...

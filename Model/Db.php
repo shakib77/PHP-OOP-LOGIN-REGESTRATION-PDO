@@ -95,7 +95,7 @@
     /**
       * @param null|void
       * @return null|void
-      * @desc Executes a PDO Statement Object an returns nultiple database record as an associative array...
+      * @desc Executes a PDO Statement Object an returns multiple database record as an associative array...
     **/
     public function fetchAll()
     {

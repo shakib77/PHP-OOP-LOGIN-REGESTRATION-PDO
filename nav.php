@@ -36,6 +36,11 @@
                 <a href="<?php echo BASE_URL; ?>dashboard.php" class="nav-link <?php if (strtolower($active) === 'dashboard') echo 'active'; ?>">Dashboard</a>
               </li>
             <?php endif; ?>
+              <?php if (isset($_SESSION['auth_status'])) : ?>
+                  <li class="nav-item">
+                      <a href="<?php echo BASE_URL; ?>post.php" class="nav-link <?php if (strtolower($active) === 'posts') echo 'active'; ?>">Post a News</a>
+                  </li>
+              <?php endif; ?>
             <?php if (isset($_SESSION['auth_status'])) : ?>
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo BASE_URL; ?>logout.php">Logout</a>
